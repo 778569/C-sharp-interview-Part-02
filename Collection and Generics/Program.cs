@@ -1,4 +1,5 @@
-﻿internal class Program
+﻿
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -51,15 +52,35 @@
 
         //Console.ReadLine();
 
-        int[] t1 = { 5, 3, 2, 5, 7, 0, 1 };
-        int[] t2 = { -2, -1, -3, 4, 8, 0 };
-        int[] t3 = { -20, -10, 3, 9, -8 };
+        //int[] t1 = { 5, 3, 2, 5, 7, 0, 1 };
+        //int[] t2 = { -2, -1, -3, 4, 8, 0 };
+        //int[] t3 = { -20, -10, 3, 9, -8 };
 
-        Console.WriteLine(MaximumProduct(t1));
-        Console.WriteLine(MaximumProduct(t2));
-        Console.WriteLine(MaximumProduct(t3));
+        //Console.WriteLine(MaximumProduct(t1));
+        //Console.WriteLine(MaximumProduct(t2));
+        //Console.WriteLine(MaximumProduct(t3));
 
-        Console.ReadLine();
+        //Console.ReadLine();
+
+       LinkedList<string> listy = new LinkedList<string>();
+
+        listy.AddLast("Sarah");
+        listy.AddLast("Polly");
+        listy.AddLast("Rebecca");
+        listy.AddLast("Jess");
+        listy.AddLast("Jackie");
+
+
+        foreach (string item in listy)
+        {
+            Console.WriteLine(item + "->");
+        }
+
+        Console.WriteLine(listy.Contains("Polly"));
+        Console.WriteLine(listy.Count);
+
+        listy.RemoveFirst();
+
     }
 
     public static int MaximumProduct(int[] arr)
