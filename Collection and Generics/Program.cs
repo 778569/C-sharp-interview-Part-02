@@ -1,4 +1,6 @@
 ﻿
+using Collection_and_Generics;
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -64,22 +66,46 @@ internal class Program
 
        LinkedList<string> listy = new LinkedList<string>();
 
-        listy.AddLast("Sarah");
-        listy.AddLast("Polly");
-        listy.AddLast("Rebecca");
-        listy.AddLast("Jess");
-        listy.AddLast("Jackie");
+        //listy.AddLast("Sarah");
+        //listy.AddLast("Polly");
+        //listy.AddLast("Rebecca");
+        //listy.AddLast("Jess");
+        //listy.AddLast("Jackie");
 
 
-        foreach (string item in listy)
-        {
-            Console.WriteLine(item + "->");
-        }
+        //foreach (string item in listy)
+        //{
+        //    Console.WriteLine(item + "->");
+        //}
 
-        Console.WriteLine(listy.Contains("Polly"));
-        Console.WriteLine(listy.Count);
+        //Console.WriteLine(listy.Contains("Polly"));
+        //Console.WriteLine(listy.Count);
 
-        listy.RemoveFirst();
+        //listy.RemoveFirst();
+
+        LinkedList<int> listt = new LinkedList<int>();
+
+
+        //listt.AddLast(1);
+        //listt.AddLast(2);
+        //listt.AddLast(3);
+        //listt.AddLast(4);
+        //listt.AddLast(5);
+        //listt.AddLast(6);
+        //listt.AddLast(7);
+        //listt.AddLast(8);
+        //listt.AddLast(9);
+        //listt.AddLast(10);
+
+
+        //foreach (var item in listt)
+        //{
+           
+        //}
+
+        StackItem item = new StackItem();
+        item.Check();
+
 
     }
 
