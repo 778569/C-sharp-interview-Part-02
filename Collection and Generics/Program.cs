@@ -103,8 +103,11 @@ internal class Program
            
         //}
 
-        StackItem item = new StackItem();
-        item.Check();
+        //StackItem item = new StackItem();
+        //item.Check();
+
+        QueueItem item = new QueueItem();
+        item.Test();
 
 
     }
