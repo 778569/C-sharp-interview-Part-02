@@ -100,15 +100,19 @@ internal class Program
 
         //foreach (var item in listt)
         //{
-           
+
         //}
 
         //StackItem item = new StackItem();
         //item.Check();
 
-        QueueItem item = new QueueItem();
-        item.Test();
+        //QueueItem item = new QueueItem();
+        //item.Test();
 
+        //Dictionary<int, string> dic = new Dictionary<int, string>();
+
+        DictionaryItem item = new DictionaryItem("Kavinda1", 36595, "ITT");
+        item.Test();
 
     }
 
