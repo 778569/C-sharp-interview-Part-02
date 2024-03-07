@@ -40,6 +40,13 @@ namespace Collection_and_Generics
             {
                 Console.WriteLine(employee.name + " : " + employee.department);
             }
+
+           int n = 100;
+
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine(Convert.ToString(i,2));
+            }
         }
     }
 }
