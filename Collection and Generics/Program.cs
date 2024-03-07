@@ -111,8 +111,14 @@ internal class Program
 
         //Dictionary<int, string> dic = new Dictionary<int, string>();
 
-        DictionaryItem item = new DictionaryItem("Kavinda1", 36595, "ITT");
-        item.Test();
+        //DictionaryItem item = new DictionaryItem("Kavinda1", 36595, "ITT");
+        //item.Test();
+
+        UsertableManager usertableManger = new UsertableManager();
+        UserData userData = new UserData("Kavinda", "kavindabandara94@gmail.com");
+        usertableManger.putItam(userData);
+
+        
 
     }
 
